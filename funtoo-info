@@ -6,7 +6,7 @@
 # this script is provided with NO GUARANTEE and NO SUPPORT
 # if it breaks or does not do what you want, FIX IT YOURSELF
 
-VERSION="funtoo 1.0" # adapted from Linux BBQ version and adjusted for Funtoo
+VERSION="cream-3.2" # updated for cream
 
 # read wm names from a file
 #WMLIST='/usr/bin/wmlist'
@@ -28,7 +28,7 @@ cyn="\e[01;36m"
 rst="\e[0m"
 
 color-echo() { # print with colors
-    echo -e "$mag$1: $rst$2"
+    echo -e "$blu$1: $rst$2"
 }
 
 print-kernel() {
@@ -98,7 +98,7 @@ print-distro() {
     fi
 }
 
-# Uncomment the lines below if you want print-colors included in terminal output
+# Uncomment the lines below including line 130 if you want print-colors included in terminal output
 #print-colors() {
 #    NAMES=('black' 'red' 'green' 'yellow' 'blue' 'magenta' 'cyan' 'white')
 #    for f in {0..7}; do
