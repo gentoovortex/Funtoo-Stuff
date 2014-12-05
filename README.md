@@ -1,4 +1,4 @@
 Funtoo-Stuff
 ============
 
-Scripts and misc for Funtoo/Gentoo
+Customized scripts and misc stuff I use or created for Funtoo/Gentoo
